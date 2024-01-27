@@ -20,6 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 header .boxTitlePage {
@@ -51,7 +52,7 @@ header nav {
     position: absolute;
     left: 0;
     top: 5.8rem;
-    background-color: rgb(60, 96, 255);
+    background-color: rgb(7, 10, 26);
     width: max-content;
 }
 
@@ -73,7 +74,7 @@ header nav ul li {
 }
 
 header nav ul li:hover {
-    border: 1px solid rgba(20, 20, 20, 0.596);
+    border: 1px solid rgb(240, 240, 240);
     border-top: none;
 }
 
