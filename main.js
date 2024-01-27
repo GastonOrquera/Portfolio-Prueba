@@ -18,9 +18,6 @@ var tog = document.querySelector('.toggle');
 
 var body = document.querySelector('body');
 
-
-
-
 tog.onclick = function () {
     tog.classList.toggle('active');
     body.classList.toggle('active');
