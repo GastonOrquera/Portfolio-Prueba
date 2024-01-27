@@ -52,7 +52,7 @@ header nav {
     left: 0;
     top: 5.8rem;
     background-color: rgb(60, 96, 255);
-    width: 12%;
+    width: max-content;
 }
 
 header nav.active {
@@ -139,4 +139,13 @@ body.active header .indexLogo {
 
 body.active header .hamburger div {
     background-color: rgb(240, 240, 240);
+}
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 800px) {
+    header nav {
+        width: 100%;
+    }
 }
