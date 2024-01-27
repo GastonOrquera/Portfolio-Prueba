@@ -206,7 +206,8 @@ body.active .imgMain {
 
 .conteinerContentMain .boxText .h3 {
     font-family: var(--font-titles);
-    color: rgb(20, 20, 20);
+    color: #35428b;
+    letter-spacing: 2px;
     font-size: 1.4rem;
 }
 
