@@ -98,7 +98,7 @@ header .conteiner .toggle {
     height: 18px;
     border-radius: 18px;
     background-color: rgb(202, 205, 50);
-    left: 2px;
+    left: 3px;
     bottom: 2px;
     cursor: pointer;
     transition: 1s ease-in-out;
