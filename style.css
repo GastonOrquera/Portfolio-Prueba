@@ -162,22 +162,26 @@ header .hamburger div {
 
 }
 
-.conteinerMain .imgMain2 {
+body.active .imgMain {
+    background-image: url(imgFondoDark.jpeg);
+}
+
+/* .conteinerMain .imgMain2 {
     background-image: url(imgFondoDark.jpeg);
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     display: none;
-}
+} */
 
-body.active .imgMain {
-    display: none;
-}
-
-body.active .imgMain2 {
+/* body.active .imgMain2 {
     display: block;
-}
+} */
+
+
+
+
 
 
 
