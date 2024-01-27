@@ -142,6 +142,103 @@ body.active header .hamburger div {
 }
 
 
+.conteinerMain {
+
+    height: 100vh;
+    width: 100%;
+}
+
+.conteinerMain .imgMain {
+    background-image: url(imgFondo.jpeg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.conteinerMain .imgMain2 {
+    background-image: url(imgFondoDark.jpeg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+}
+
+body.active .imgMain {
+    display: none;
+}
+
+body.active .imgMain2 {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 800px) {

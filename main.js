@@ -18,7 +18,15 @@ var tog = document.querySelector('.toggle');
 
 var body = document.querySelector('body');
 
+
+var imgMain = document.querySelector('.imgMain');
+
+var imgMain2 = document.querySelector('.imgMain2');
+
+
 tog.onclick = function () {
     tog.classList.toggle('active');
     body.classList.toggle('active');
+    imgMain.classList.toggle('active');
 }
+
