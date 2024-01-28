@@ -14,14 +14,36 @@ navLinks.forEach(function (link) {
     });
 });
 
-var tog = document.querySelector('.toggle');
+// var tog = document.querySelector('.toggle');
 
+// var body = document.querySelector('body');
+
+// tog.onclick = function () {
+//     tog.classList.toggle('active');
+//     body.classList.toggle('active');
+// }
+
+var tog = document.querySelector('.toggle');
 var body = document.querySelector('body');
+
+window.onload = function () {
+    var mode = localStorage.getItem('mode');
+    if (mode === 'dark') {
+        tog.classList.add('active');
+        body.classList.add('active');
+    }
+};
 
 tog.onclick = function () {
     tog.classList.toggle('active');
     body.classList.toggle('active');
-}
+
+    if (body.classList.contains('active')) {
+        localStorage.setItem('mode', 'dark');
+    } else {
+        localStorage.setItem('mode', 'light');
+    }
+};
 
 ScrollReveal().reveal('.scroll-revealLeft', {
     origin: 'left',
