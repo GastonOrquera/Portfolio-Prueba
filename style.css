@@ -127,7 +127,7 @@ header .conteiner .toggle {
 }
 
 header .conteiner .toggle.active {
-    left: 28px;
+    left: 27.9px;
     background-color: rgb(20, 20, 20);
 }
 
