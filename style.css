@@ -227,6 +227,17 @@ body.active .imgMain {
     margin-top: 1rem;
 }
 
+.conteinerContentMain .boxText .btn:hover {
+    background-color: #5163c7;
+}
+
+.conteinerContentMain .span-portfolio {
+    font-family: var(--font-parrafo);
+    color: #5d75fd;
+}
+
+
+
 
 
 .conteinerContentMain .svgBackground {
